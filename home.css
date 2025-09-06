@@ -21,15 +21,26 @@ html, body {
   padding:0;
 }
 
-.btn {
-  background-color: DodgerBlue;
-  border: none;
-  color: white;
-  padding: 12px 30px;
-  cursor: pointer;
-  font-size: 20px;
+
+.buttonClass {
+  font-size:17px;
+  font-family:Arial;
+  width:140px;
+  height:50px;
+  border-width:1px;
+  color:#fff;
+  border-color:rgba(105, 151, 100, 1);
+  font-weight:bold;
+  border-top-left-radius:17px;
+  border-top-right-radius:17px;
+  border-bottom-left-radius:17px;
+  border-bottom-right-radius:17px;
+  box-shadow:inset 0px 0px 15px 3px rgba(17, 63, 23, 1);
+  text-shadow:inset 0px 1px 0px rgba(4, 5, 8, 1);
+  background:linear-gradient(rgba(120, 231, 117, 1), rgba(27, 53, 27, 1));
 }
 
-.btn:hover {
-  background-color: RoyalBlue;
+.buttonClass:hover {
+  background: linear-gradient(rgba(27, 53, 27, 1), rgba(120, 231, 117, 1));
 }
+              
